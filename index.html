@@ -53,7 +53,7 @@
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn bg-button-primary rounded-lg text-white mr-32 font-medium text-xl">
+                  <a class="btn bg-button-primary hidden lg:flex rounded-lg text-white mr-32 font-medium text-xl">
                    <div> <i class="fa-solid fa-magnifying-glass"></i> </div>
                     Get Ticket</a>
                     
@@ -71,15 +71,15 @@
             </div> -->
 
              <div class="carousel h-[550px] ml-44 w-[1170px]">
-                <div id="slide1" class="carousel-item  relative w-full">
-                  <img src="Images/1.png" class="w-[1170px]" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img class="flex px-0 flex-col lg:flex-row" src="Images/1.png" class="w-[1170px]" />
+                  <div class="absolute bottom-0 right-10 space-x-4 transform -translate-y-1/2">
                     <a href="#slide4" class="btn bg-black text-white btn-circle">❮</a> 
                     <a href="#slide2" class="btn bg-black text-white btn-circle">❯</a>
                   </div>
                 </div> 
                 <div id="slide2" class="carousel-item relative w-[1170]">
-                  <img src="Images/1.png" class="w-[1170px]" />
+                  <img class="flex flex-col px-0 lg:flex-row" src="Images/1.png" class="w-[1170px]"/>
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn bg-black text-white btn-circle">❮</a> 
                     <a href="#slide3" class="btn bg-black text-white btn-circle">❯</a>
@@ -321,8 +321,8 @@
                           <div class="collapse-content"> 
                             <p>hello</p>
                           </div>
-                        </div>
-                        <div class="collapse collapse-plus ">
+                        </div>         
+                          <div class="collapse collapse-plus ">
                           <input type="radio" name="my-accordion-3" /> 
                           <div class="collapse-title text-xl font-bold">
                            Booking
